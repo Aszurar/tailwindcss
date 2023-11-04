@@ -5,7 +5,7 @@ import { LifeBuoy, Search, Settings } from 'lucide-react'
 import UsedSpaceWidget from './UsedSpaceWidget'
 import Profile from './Profile'
 
-import * as Input from '../../components/SideBar/Input'
+import * as Input from '../../components/Input'
 
 export function SideBar() {
   return (
