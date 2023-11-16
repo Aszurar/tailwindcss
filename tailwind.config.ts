@@ -16,6 +16,24 @@ const config: Config = {
           25: '#fcfaff',
         },
       },
+      keyframes: {
+        slideDownAndFade: {
+          from: { opacity: 0, transform: 'translateY(-2px)' },
+          to: { opacity: 1, transform: 'translateY(0)' },
+        },
+        // Não usamos para animar o fechar do SelectInput pois estamos usando o Select do Radix UI, e ele elimina sua lista de opções da DOM, o que inviabiliza a animação
+        // somente se usasse alguma lib adicional para detectar quando a animação termina e então remover o elemento da DOM como framer motion ou react-spring
+        // slideUpAndFade: {
+        //   from: { opacity: 1 },
+        //   to: { opacity: 0 },
+        // },
+      },
+
+      animation: {
+        slideDownAndFade:
+          'slideDownAndFade 700ms cubic-bezier(0.16, 1, 0.3, 1)',
+        // slideUpAndFade: 'slideUpAndFade 1s linear',
+      },
     },
   },
   plugins: [],
