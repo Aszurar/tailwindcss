@@ -15,11 +15,24 @@ const config: Config = {
         violet: {
           25: '#fcfaff',
         },
+        error: {
+          25: '#FFFBFA',
+          50: '#FEF3F2',
+          100: '#FEE4E2',
+          200: '#FECDCA',
+          300: '#FDA29B',
+          400: '#F97066',
+          500: '#F04438',
+          600: '#D92D20',
+          700: '#B42318',
+          800: '#912018',
+          900: '#7A271A',
+        },
       },
       keyframes: {
         slideDownAndFade: {
-          from: { opacity: 0, transform: 'translateY(-2px)' },
-          to: { opacity: 1, transform: 'translateY(0)' },
+          from: { opacity: '0', transform: 'translateY(-4px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
         },
         // Não usamos para animar o fechar do SelectInput pois estamos usando o Select do Radix UI, e ele elimina sua lista de opções da DOM, o que inviabiliza a animação
         // somente se usasse alguma lib adicional para detectar quando a animação termina e então remover o elemento da DOM como framer motion ou react-spring
