@@ -2,7 +2,7 @@ export function SearchIcon() {
   return (
     <svg
       aria-label="Pesquisar"
-      className="fill-zinc-500 h-5 w-5"
+      className="h-5 w-5 fill-zinc-500"
       xmlns="http://www.w3.org/2000/svg"
       width="56"
       height="56"
