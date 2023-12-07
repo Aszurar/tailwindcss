@@ -17,7 +17,7 @@ export default function Profile() {
           lms.souza39@gmail.com
         </span>
       </div>
-      <Button type="button" variant="ghost">
+      <Button type="button" variant="ghost" aria-label="Logout">
         <LogOut className="h-5 w-5 " />
       </Button>
     </div>

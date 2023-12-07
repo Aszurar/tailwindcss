@@ -10,7 +10,7 @@ import { NavItem } from './NavItem'
 
 export function MainNavigation() {
   return (
-    <nav className="">
+    <nav aria-label="main navigation">
       <NavItem title="Home" icon={Home} />
       <NavItem title="Dashboard" icon={BarChart2} />
       <NavItem title="Projects" icon={SquareStack} />
