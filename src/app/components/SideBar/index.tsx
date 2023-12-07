@@ -22,7 +22,7 @@ export function SideBar() {
             <div className="flex items-center gap-2.5">
               <Logo />
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">
-                Untitled UI
+                Tailwind App
               </span>
             </div>
             <Switch />
