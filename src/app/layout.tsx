@@ -9,7 +9,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'TailwindCSS App',
-  description: 'Simple Project to test and learn TailwindCSS with Next.js',
+  description:
+    'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
   authors: {
     name: 'Lucas de Lima Martins de Souza',
     url: 'https://github.com/Aszurar',
@@ -22,15 +23,21 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://tailwindcss-app.vercel.app/',
     title: 'TailwindCSS App',
-    description: 'Simple Project to test and learn TailwindCSS with Next.js',
+    description:
+      'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
     images: [
       {
-        url: 'https://i.imgur.com/FRmYLIF.png',
+        url: 'https://i.imgur.com/zlMHJ9p.png',
         width: 1200,
         height: 630,
         alt: 'TailwindCSS App',
       },
     ],
+    emails: 'lms.souza39@gmail.com',
+    siteName: 'TailwindCSS App',
+  },
+  other: {
+    publishedTime: '2023-12-06T20:00:00.000Z',
   },
 }
 
