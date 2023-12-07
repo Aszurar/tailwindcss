@@ -32,6 +32,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@axe-core/react": "^4.8.2",
     "@rocketseat/eslint-config": "^2.1.0",
     "prettier-plugin-tailwindcss": "^0.5.4"
   }
