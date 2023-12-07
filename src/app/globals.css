@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {   
+  :focus-visible {
+      @apply ring-2 ring-violet-300 outline-none
+    }
+    
+  ::selection {
+      @apply text-white bg-violet-500
+  }
+
+  html {      
+      @media (max-width: 640px) {
+          font-size: 87.5%;
+      }
+  }
+
+::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+
+::-webkit-scrollbar-track {
+      @apply dark:bg-zinc-700
+    }
+ 
+::-webkit-scrollbar-thumb {
+      @apply bg-violet-400 rounded-lg 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+      @apply bg-violet-500
+  }
+}
