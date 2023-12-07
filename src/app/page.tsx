@@ -1,13 +1,23 @@
+'use client'
+import { useEffect } from 'react'
+import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
+
+import * as Input from './components/Input'
+import * as FileInput from './components/FileInput'
+
 import { Button } from './components/Button'
 import { TabBar } from './components/TabBar'
-import * as Input from './components/Input'
-import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
-import * as FileInput from './components/FileInput'
 import { Select } from './components/Select'
-import { SelectItem } from './components/Select/SelectItem'
 import { Textarea } from './components/Textarea'
+import { SelectItem } from './components/Select/SelectItem'
+
+import { axeAccessibilityReporter } from '@/utils/axeAccessibilityReporter'
 
 export default function Home() {
+  useEffect(() => {
+    axeAccessibilityReporter()
+  }, [])
+
   return (
     <>
       <header className="flex flex-col gap-6">
@@ -125,7 +135,7 @@ export default function Home() {
             Country
           </label>
           <div className="flex">
-            <Select placeholder="Select a country...">
+            <Select label="Country Selector" placeholder="Select a country...">
               <SelectItem text="Brasil" value="br" />
               <SelectItem text="Argentina" value="arg" />
             </Select>
@@ -140,7 +150,10 @@ export default function Home() {
             Timezone
           </label>
           <div className="flex gap-6">
-            <Select placeholder="Select a Timezone...">
+            <Select
+              label="Timezone Selector"
+              placeholder="Select a Timezone..."
+            >
               <SelectItem
                 text="utc8"
                 value="Pacific Standard Time (UTC-08:00)"
@@ -163,30 +176,38 @@ export default function Home() {
 
           <div className="space-y-3">
             <div className="flex flex-col gap-3 lg:grid lg:grid-cols-2">
-              <Select placeholder="" defaultValue="normal">
+              <Select
+                label="Bio text format selector"
+                placeholder=""
+                defaultValue="normal"
+              >
                 <SelectItem value="normal" defaultChecked text="Normal Text" />
                 <SelectItem value="md" text="Markdown" />
               </Select>
 
               <div className="flex items-center gap-1">
-                <Button type="button" variant="ghost">
+                <Button type="button" variant="ghost" aria-label="Bold text">
                   <Bold className="h-4 w-4" strokeWidth={3} />
                 </Button>
-                <Button type="button" variant="ghost">
+                <Button type="button" variant="ghost" aria-label="Italic text">
                   <Italic className="h-4 w-4" strokeWidth={3} />
                 </Button>
-                <Button type="button" variant="ghost">
+                <Button type="button" variant="ghost" aria-label="Link text">
                   <Link className="h-4 w-4" strokeWidth={3} />
                 </Button>
-                <Button type="button" variant="ghost">
+                <Button type="button" variant="ghost" aria-label="Bullet list">
                   <List className="h-4 w-4" strokeWidth={3} />
                 </Button>
-                <Button type="button" variant="ghost">
+                <Button
+                  type="button"
+                  variant="ghost"
+                  aria-label="Numbered list"
+                >
                   <ListOrdered className="h-4 w-4" strokeWidth={3} />
                 </Button>
               </div>
             </div>
-            <Textarea />
+            <Textarea id="bio" />
           </div>
         </div>
 
