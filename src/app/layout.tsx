@@ -1,13 +1,12 @@
 import './globals.css'
 
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import { SideBar } from './components/SideBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'TailwindCSS App',
   description:
     'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
