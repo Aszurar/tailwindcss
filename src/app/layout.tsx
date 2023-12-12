@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
     images: [
       {
-        url: 'https://i.imgur.com/zlMHJ9p.png',
+        url: 'https://i.imgur.com/493yY50.png',
         width: 1200,
         height: 630,
         alt: 'TailwindCSS App',
@@ -35,8 +35,6 @@ export const metadata: Metadata = {
     ],
     emails: 'lms.souza39@gmail.com',
     siteName: 'TailwindCSS App',
-  },
-  other: {
     publishedTime: '2023-12-06T20:00:00.000Z',
   },
 }
