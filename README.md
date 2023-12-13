@@ -164,7 +164,7 @@
 - Além disso, podemos customizar o próprio endereço do site, adicionar ferramentas dentre outras funcionalidades facilmente.
 
 <div align="center">
-<img src="https://i.imgur.com/KEj23Ou.png" width="1000">
+<img src="https://i.imgur.com/8KofEH3.png" width="1000">
 </div>
 
 ---
