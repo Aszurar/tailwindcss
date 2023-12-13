@@ -29,7 +29,7 @@ export function SideBar() {
           </div>
 
           <Collapsible.Trigger asChild className="ml-auto lg:hidden">
-            <Button type="button" variant="ghost">
+            <Button type="button" variant="ghost" aria-label="Abrir menu">
               <Menu className="h-6 w-6" />
             </Button>
           </Collapsible.Trigger>
