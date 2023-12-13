@@ -7,7 +7,7 @@ export function Control(props: ControlProps) {
     <input
       className={`flex flex-1 items-center justify-center border-0 bg-transparent p-0 
       text-base text-zinc-900 placeholder-zinc-500 outline-none
-      dark:text-zinc-100 dark:placeholder-zinc-400
+      focus-visible:ring-0 dark:text-zinc-100 dark:placeholder-zinc-400
       `}
       {...props}
     />
