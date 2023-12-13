@@ -101,9 +101,9 @@
 - O Design do projeto foi fornecido pela **[Rocketseat](https://www.rocketseat.com.br/)** no primeiro módulo do Ignite - React por meio do Figma.
 
 <div align="center">
-  <h3><a href="https://www.figma.com/file/u2TAXCfiufWLNRZibyl3Hj/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?type=design&node-id=56-96&mode=design&t=nl3sM63VnZNZZuAn-0">todo dark</a></h3>
+  <h3><a href="https://www.figma.com/file/wyhJEw4TTgVae0NblX9Abl/Ignite-Tailwind-%E2%9C%85?type=design&mode=design&t=vjw5ISwfxYoe6X8q-0">tailwindcss-app</a></h3>
 
-  [![Design](https://i.imgur.com/27ZuoQn.png)](https://www.figma.com/file/u2TAXCfiufWLNRZibyl3Hj/ToDo-List-%E2%80%A2-Desafio-React-(Copy)?type=design&node-id=56-96&mode=design&t=nl3sM63VnZNZZuAn-0)
+  [![Design](https://i.imgur.com/27ZuoQn.png)](https://www.figma.com/file/wyhJEw4TTgVae0NblX9Abl/Ignite-Tailwind-%E2%9C%85?type=design&mode=design&t=vjw5ISwfxYoe6X8q-0)
 </div>
 
 **Responsividade**
