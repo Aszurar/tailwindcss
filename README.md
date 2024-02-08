@@ -60,8 +60,8 @@
   **Campos vazios**
 
 <div align="center" >
-      <img src="https://i.imgur.com/tJtriBr.png" width="700">
-      <img src="https://i.imgur.com/IkIdHqU.png" width="700">
+      <img src="https://i.imgur.com/tJtriBr.png" width="700" alt="Tela inicial">
+      <img src="https://i.imgur.com/IkIdHqU.png" width="700" alt="Tela inicial">
 </div>
 
 ---
