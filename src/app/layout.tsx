@@ -12,7 +12,7 @@ export const metadata = {
     'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
   authors: {
     name: 'Lucas de Lima Martins de Souza',
-    url: 'https://github.com/Aszurar',
+    url: 'https://lucas-de-lima-ms.netlify.app/',
   },
   keywords: ['TailwindCSS', 'Next.js', 'React'],
   publisher: 'Lucas de Lima Martins de Souza',
@@ -36,6 +36,23 @@ export const metadata = {
     siteName: 'TailwindCSS App',
     publishedTime: '2023-12-06T20:00:00.000Z',
   },
+  twitter: {
+    card: 'summary_large_image',
+    url: 'https://tailwindcss-app.vercel.app/',
+    title: 'TailwindCSS App',
+    description:
+      'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
+    images: ['https://i.imgur.com/493yY50.png'],
+    creator: '@LmsSouza39',
+  },
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'TailwindCSS App',
+  description:
+    'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
 }
 
 export default function RootLayout({
@@ -45,7 +62,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="antialiased">
-      <body className={inter.className}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <body>
         <div className="  min-h-screen bg-white dark:bg-zinc-900 lg:grid lg:grid-cols-app">
           <SideBar />
           <main className="max-w-[100vw] px-4 pb-12 pt-24 lg:col-start-2 lg:py-8">
