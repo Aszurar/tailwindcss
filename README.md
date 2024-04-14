@@ -13,6 +13,13 @@
 
   <div align="center">
     <h3><a href="https://tailwindcss-app.vercel.app">tailwind-app</a></h3>
+
+
+
+    https://github.com/Aszurar/tailwindcss/assets/64987824/69b9c2b3-e3c3-43be-b933-ec0815c123fd
+
+
+
   </div>
 
 <div align="center">
@@ -37,12 +44,12 @@
 ---
 
 <div align="center">
-    <img src="https://i.imgur.com/9eV9o8d.gif" width="800">
+    <img src="https://i.imgur.com/9eV9o8d.gif" width="400">
 </div>
 
 <div align="center" >
 
-**[Link do vídeo completo sobre o projeto](https://www.youtube.com/watch?v=jxYjbeNftTM)**
+**[Vídeo no Youtube](https://www.youtube.com/watch?v=jxYjbeNftTM)**
 
 </div>
 
