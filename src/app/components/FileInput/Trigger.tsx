@@ -10,10 +10,10 @@ export function Trigger() {
     <label
       htmlFor={id}
       className={` group flex flex-1 cursor-pointer flex-col items-center gap-3 rounded-lg border border-zinc-300 px-6 py-4 
-      text-center text-sm font-normal text-zinc-400 shadow-sm 
+      text-center text-sm font-normal text-zinc-500 shadow-sm 
       transition-all duration-300 hover:border-violet-200
-      hover:bg-violet-25 hover:text-violet-500 
-      dark:border-zinc-800 dark:hover:border-zinc-700 dark:hover:bg-zinc-800 dark:hover:text-violet-300
+      hover:bg-violet-25 hover:text-violet-500 dark:border-zinc-800
+      dark:text-zinc-400 dark:hover:border-zinc-700 dark:hover:bg-zinc-800 dark:hover:text-violet-300
       `}
     >
       <div

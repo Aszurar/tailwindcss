@@ -12,6 +12,7 @@ import Profile from './Profile'
 import * as Input from '../../components/Input'
 import { Button } from '../Button'
 import { Switch } from './Switch'
+import { ThemeProvider } from '@/app/context/theme'
 
 export function SideBar() {
   return (
@@ -25,7 +26,10 @@ export function SideBar() {
                 Tailwind App
               </span>
             </div>
-            <Switch />
+
+            <ThemeProvider>
+              <Switch />
+            </ThemeProvider>
           </div>
 
           <Collapsible.Trigger asChild className="ml-auto lg:hidden">

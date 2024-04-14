@@ -5,7 +5,7 @@ export default function UsedSpaceWidget() {
         <span className="text-sm font-medium leading-5 text-violet-700 dark:text-zinc-100">
           Used space
         </span>
-        <p className="text-sm text-violet-500 dark:text-zinc-400">
+        <p className="text-sm text-violet-600 dark:text-zinc-400">
           Your team has used 80% of your available space. Need more?
         </p>
       </div>
@@ -13,7 +13,7 @@ export default function UsedSpaceWidget() {
         <div className=" w-4/5 rounded-full bg-violet-700 dark:bg-violet-400"></div>
       </div>
       <div className="flex items-center gap-3">
-        <button className="font-semibold text-violet-500 hover:text-violet-700 dark:text-violet-300 dark:hover:text-violet-200">
+        <button className="font-semibold text-violet-600 hover:text-violet-700 dark:text-violet-300 dark:hover:text-violet-200">
           Dismiss
         </button>
         <button className="font-semibold text-violet-700 hover:text-violet-900 dark:text-zinc-300 dark:hover:text-zinc-100">
