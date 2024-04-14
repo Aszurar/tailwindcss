@@ -146,12 +146,11 @@
   8. **[NodeJS](https://nodejs.org/en/)**
   9. **[Radix UI](https://www.radix-ui.com/)**
   10. **[React](https://pt1.br.react.dev/)**
-  11. **[Sentry](https://sentry.io/welcome/)**
-  12. **[TailwindCSS](https://tailwindcss.com/)**
-  13. **[TailwindCSS Variants](https://www.tailwind-variants.org/)**
-  14. **[TypeScript](https://www.typescriptlang.org/)**
-  15. **[Vercel](https://www.vercel.com/)**
-  16. **[Yarn](https://classic.yarnpkg.com/blog/2017/05/12/introducing-yarn/)**
+  11. **[TailwindCSS](https://tailwindcss.com/)**
+  12. **[TailwindCSS Variants](https://www.tailwind-variants.org/)**
+  13. **[TypeScript](https://www.typescriptlang.org/)**
+  14. **[Vercel](https://www.vercel.com/)**
+  15. **[Yarn](https://classic.yarnpkg.com/blog/2017/05/12/introducing-yarn/)**
 
 ---
 
