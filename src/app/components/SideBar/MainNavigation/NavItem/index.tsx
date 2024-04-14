@@ -14,7 +14,7 @@ export function NavItem({
 }: NavItemProps) {
   return (
     <a
-      href=""
+      href="#"
       className={`group flex h-10 flex-1 items-center gap-3 rounded-md px-3 transition-all hover:bg-violet-50
         dark:hover:bg-zinc-800
       `}
