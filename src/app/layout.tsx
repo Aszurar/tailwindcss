@@ -1,12 +1,9 @@
 import './globals.css'
 
-import { Inter } from 'next/font/google'
-
 import { SideBar } from './components/SideBar'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata = {
+  metadataBase: new URL('https://i.imgur.com'),
   title: 'TailwindCSS App',
   description:
     'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
@@ -26,7 +23,7 @@ export const metadata = {
       'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
     images: [
       {
-        url: 'https://i.imgur.com/493yY50.png',
+        url: '/493yY50.png',
         width: 1200,
         height: 630,
         alt: 'TailwindCSS App',
@@ -42,17 +39,9 @@ export const metadata = {
     title: 'TailwindCSS App',
     description:
       'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
-    images: ['https://i.imgur.com/493yY50.png'],
+    images: ['/493yY50.png'],
     creator: '@LmsSouza39',
   },
-}
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'SoftwareApplication',
-  name: 'TailwindCSS App',
-  description:
-    'Simple Project to test and learn TailwindCSS with Next.js and React, tailwind variants, dark mode, AutoAnimate and more',
 }
 
 export default function RootLayout({
@@ -62,10 +51,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="antialiased">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <meta
+        name="google-site-verification"
+        content="F9x673ARchuWyB5sbIVmjHUlMVfIQRIIe0wtDtsmafA"
       />
+
       <body>
         <div className="  min-h-screen bg-white dark:bg-zinc-900 lg:grid lg:grid-cols-app">
           <SideBar />
