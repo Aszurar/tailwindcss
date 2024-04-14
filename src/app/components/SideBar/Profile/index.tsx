@@ -1,13 +1,16 @@
 import { LogOut } from 'lucide-react'
 import { Button } from '../../Button'
+import Image from 'next/image'
 
 export default function Profile() {
   return (
     <div className="flex items-center gap-3 ">
-      <img
+      <Image
         className="h-10 w-10 rounded-full"
         src="https://avatars.githubusercontent.com/u/64987824?v=4"
         alt="Perfil"
+        width={40}
+        height={40}
       />
       <div className="flex flex-col truncate">
         <span className="truncate text-sm font-semibold text-zinc-700 dark:text-zinc-100">
