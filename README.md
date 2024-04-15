@@ -7,7 +7,7 @@
 ## Masterizando TailwindCSS: Tailwind-app
 
 - O projeto **tailwind-app** é um projeto focado na aprendizagem e prática do uso do **[Tailwind CSS](https://tailwindcss.com/)**. Para isso, criamos um aplicação clone das telas de configuração do **[Notion](https://www.notion.so/)**.
-- O propósito aqui é aprender e praticar a estilização via **TailwindCSS** em conjunto **com Radix UI**, criando componentes **totalmente personalizáveis**, **responsivos** com versão mobile, com **troca** entre **light/dark mode **no contexto do **React** com **TypeScript**.
+- O propósito aqui é aprender e praticar a estilização via **TailwindCSS** em conjunto **com Radix UI**, criando componentes **totalmente personalizáveis**, **responsivos** com versão mobile, com **troca** entre **light/dark mode** no contexto do **React** com **TypeScript**.
   
 - A acessibilidade também foi levada em consideração, com o uso da lib **[axe-core](https://www.npmjs.com/package/@axe-core/react)** para testes e correções de acessibilidade assim como leitor de tela ChromeVox e o uso do **[Radix UI](https://www.radix-ui.com/)** para componentes acessíveis.
 - O site foi publicado com CI/CD por meio da plataforma **[Vercel](https://www.vercel.com/)**.
